@@ -11,6 +11,7 @@ const options = {
 class Externals {
 
   getPositions(product) {
+    // prepare correct URL for api call
     let url = baseUrl + product + "/positions"
     return new Promise((resolve, reject) => {
       https.get(url, options, (response) => {

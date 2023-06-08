@@ -28,7 +28,7 @@ app.post('/getRoute', (req, res) => {
   }
   // if input is not valid, print error into console
   else {
-    console.error("Zly typ vstupu ! Vstup si vyzaduje pole s viac ako 1 prvkom ex.: ['product-1']");
+    console.error("Zly typ vstupu !");
   }
 });
 
